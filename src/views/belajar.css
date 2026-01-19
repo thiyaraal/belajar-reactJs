@@ -1,0 +1,74 @@
+.header {
+  color: white;
+}
+
+.table {
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0px;
+  color: black;
+  text-align: left;
+}
+
+.table-header th {
+  border-bottom: 0.5px solid grey;
+  padding: 10px 12px;
+
+  text-align: left;
+}
+
+.table-row td {
+  padding: 10px 12px;
+}
+
+.card-tabel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-section {
+  display: flex;
+  color: black;
+  gap: 20px;
+
+  padding: 20px 20px 10px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+.card-payment {
+  padding: 20px;
+
+  border-radius: 12px;
+}
+
+.card-method {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: aliceblue;
+}
+
+.card-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-total {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.card-payment,
+.card-total {
+  flex: 1;
+  background-color: white;
+}
