@@ -1,10 +1,10 @@
-import "./App.css";
-import BelajarStruktur from "./views/BelajarStruktur";
+import HomeScreen from "./components/HomeScreen";
+import "./styles/App.css";
 
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <BelajarStruktur />
+      <HomeScreen />
     </div>
   );
 }

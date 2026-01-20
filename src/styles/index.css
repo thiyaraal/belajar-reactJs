@@ -2,6 +2,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  min-height: 100vh;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -24,8 +25,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -60,9 +59,17 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #a1cc80;
   }
   button {
     background-color: #f9f9f9;
   }
+}
+
+.content-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+  margin-bottom: 1rem;
 }
