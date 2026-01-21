@@ -1,0 +1,72 @@
+.info-card {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  width: 230px;
+  padding: 12px;
+  color: black;
+}
+
+.info-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-card-title {
+  font-weight: 300;
+  font-size: 14px;
+  margin: 0;
+}
+
+.info-card-icon {
+  width: 24px;
+  height: 24px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-card-content {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.info-card-price {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 8px 0 0;
+}
+
+.info-card-desc {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.info-card-divider {
+  width: 80%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 12px auto;
+}
+
+.info-card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.info-card-footer-text {
+  margin: 0;
+  font-weight: 300;
+}
+
+.info-card-footer-value {
+  margin: 0;
+  font-weight: 600;
+}

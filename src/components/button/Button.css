@@ -1,0 +1,21 @@
+.button {
+  padding: 10px 20px;
+  margin: 0 8px;
+  border-radius: 20px;
+
+  font-size: 16px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.button-primary {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.button-secondary {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}

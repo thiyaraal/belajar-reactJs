@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.header-button {
+/* .header-button {
   display: flex;
   gap: 10px;
   margin: 0;
@@ -52,9 +52,9 @@
   border-radius: 20px;
   border: 1px solid black;
   font-size: 16px;
-}
+} */
 
-.btn-signup {
+/* .btn-signup {
   background-color: black;
   color: white;
 }
@@ -63,7 +63,7 @@
   background-color: white;
   border-color: black;
   color: black;
-}
+} */
 
 .logo-icon {
   height: 40px;
@@ -100,10 +100,9 @@
   border: 1px solid #d1d5db;
   display: flex;
   padding: 12px 12px;
-
   border-radius: 100px;
   width: 400px;
-
+  align-items: center;
   box-sizing: border-box;
   margin: 0 auto;
 }
@@ -111,6 +110,7 @@
 .input-icon {
   margin-left: 12px;
   align-items: center;
+  display: flex;
 
   font-size: 22px;
 
@@ -139,3 +139,18 @@
   cursor: pointer;
   white-space: nowrap;
 }
+
+.body-title h2 {
+  font-weight: 300;
+  margin-top: 4rem;
+  color: black;
+}
+.body-cards {
+  display: flex;
+  gap: 16px;
+  margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+

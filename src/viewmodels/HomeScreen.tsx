@@ -1,5 +1,7 @@
 import { AiFillAlipayCircle, AiOutlineMail } from "react-icons/ai";
 import "../styles/HomeScreen.css";
+import InfoCard from "../components/InfoCard/InfoCard";
+import Button from "../components/button/Button";
 
 export default function HomeScreen() {
   return (
@@ -21,8 +23,16 @@ export default function HomeScreen() {
             <div className="header-menu-item">Contact</div>
           </section>
           <section className="header-button">
-            <button className="btn-login">Login</button>
-            <button className="btn-signup">Sign Up</button>
+            <Button
+              label="Sign Up"
+              onClick={() => {}}
+              className="button button-secondary"
+            />
+            <Button
+              label="Log in"
+              onClick={() => {}}
+              className="button button-primary"
+            />
           </section>
         </div>
       </header>
@@ -46,6 +56,38 @@ export default function HomeScreen() {
             ></input>
             <button className="btn-getstarted">Get Started</button>
           </div>
+
+          <section className="content-body">
+            <div className="body-title">
+              <h2> Most poupular</h2>
+            </div>
+            <div className="body-cards">
+              <InfoCard
+                title="U Cap"
+                price="$10.00"
+                description="Interest Paid"
+                returnValue="15.0%"
+              />
+              <InfoCard
+                title="X Cap"
+                price="$50.00"
+                description="Interest Paid"
+                returnValue="20.0%"
+              />
+              <InfoCard
+                title="Pro Cap"
+                price="$100.00"
+                description="Interest Paid"
+                returnValue="25.0%"
+              />
+              <InfoCard
+                title="Mega Cap"
+                price="$500.00"
+                description="Interest Paid"
+                returnValue="30.0%"
+              />
+            </div>
+          </section>
         </section>
       </main>
     </div>
