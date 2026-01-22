@@ -1,7 +1,9 @@
-import { AiFillAlipayCircle, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import "../styles/HomeScreen.css";
 import InfoCard from "../components/InfoCard/InfoCard";
 import Button from "../components/button/Button";
+import NavLink from "../components/NavLink/Navlink";
+import BrandLogo from "../components/BrandLogo/BrandLogo";
 
 export default function HomeScreen() {
   return (
@@ -9,19 +11,15 @@ export default function HomeScreen() {
       <header className="header">
         <div className="header-inner">
           <section className="header-logo">
-            <AiFillAlipayCircle className="logo-icon" />
-
-            <div className="header-namelogo">
-              <p>Curve</p>
-              <p>Network inc</p>
-            </div>
+            <BrandLogo />
           </section>
           <section className="header-menu">
-            <div className="header-menu-item">Home</div>
-            <div className="header-menu-item">About</div>
-            <div className="header-menu-item">Services</div>
-            <div className="header-menu-item">Contact</div>
+            <NavLink label="Home" active={true} />
+            <NavLink label="About" />
+            <NavLink label="Services" />
+            <NavLink label="Contact" />
           </section>
+
           <section className="header-button">
             <Button
               label="Sign Up"
@@ -54,7 +52,11 @@ export default function HomeScreen() {
               className="form-input"
               placeholder="enter Your Email Address"
             ></input>
-            <button className="btn-getstarted">Get Started</button>
+            <Button
+              label="Get Started"
+              onClick={() => {}}
+              className="btn-getstarted"
+            />
           </div>
 
           <section className="content-body">
