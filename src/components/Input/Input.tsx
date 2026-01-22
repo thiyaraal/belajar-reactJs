@@ -5,19 +5,21 @@ type InputProps = {
   type?: string;
   placeholder?: string;
   icon?: ReactNode;
+  borderless?: boolean;
 };
 
 export default function Input({
   type = "text",
+  borderless = false,
   placeholder,
   icon,
 }: InputProps) {
   return (
-    <div className={`input-wrapper ${icon ? "with-icon" : ""}`}>
+    <div
+      className={`input-wrapper ${icon ? "with-icon" : ""} ${borderless ? "borderless" : ""}`}
+    >
       {icon && <span className="input-icon">{icon}</span>}
-      <input type={type} className="input" placeholder={placeholder} />
+      <input type={type} className="input-field" placeholder={placeholder} />
     </div>
   );
 }
-
-

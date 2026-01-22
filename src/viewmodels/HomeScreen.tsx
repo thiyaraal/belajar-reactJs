@@ -4,6 +4,7 @@ import InfoCard from "../components/InfoCard/InfoCard";
 import Button from "../components/button/Button";
 import NavLink from "../components/NavLink/Navlink";
 import BrandLogo from "../components/BrandLogo/BrandLogo";
+import Input from "../components/Input/Input";
 
 export default function HomeScreen() {
   return (
@@ -43,15 +44,13 @@ export default function HomeScreen() {
               Grow your investment faster without any risk and hidden fees.
             </h5>
           </div>
-          <div className="input-wrapper">
-            <span className="input-icon">
-              <AiOutlineMail />
-            </span>
-            <input
+          <div className="input-with-button">
+            <Input
               type="email"
-              className="form-input"
-              placeholder="enter Your Email Address"
-            ></input>
+              placeholder="Enter your email"
+              icon={<AiOutlineMail />}
+              borderless
+            />
             <Button
               label="Get Started"
               onClick={() => {}}
