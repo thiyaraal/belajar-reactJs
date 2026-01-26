@@ -1,0 +1,113 @@
+.header {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  padding: 16px 0;
+  color: #000;
+}
+
+.header-inner {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.header-logo {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-namelogo {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-namelogo p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  justify-content: center;
+}
+
+.logo-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.content-title {
+  text-align: center;
+  margin-top: 4rem;
+  color: black;
+}
+
+.content-title-text {
+  margin: 0;
+  font-weight: 400;
+}
+
+.content-subtitle {
+  margin-top: 4px;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+.content-description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #000;
+  font-weight: 100;
+}
+
+.input-with-button {
+  display: flex;
+
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #d1d5db;
+  border-radius: 100px;
+  padding: 6px;
+  background: white;
+  color: black;
+}
+
+.input-with-button button {
+  border-radius: 100px;
+  padding: 10px 10px;
+  font-size: 12px;
+}
+
+.body-title h2 {
+  font-weight: 300;
+  margin-top: 4rem;
+  color: black;
+}
+.body-cards {
+  display: flex;
+  gap: 16px;
+  margin-top: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-getstarted {
+  margin-top: 1rem;
+}
+.input-password {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.input {
+  display: flex;
+}
